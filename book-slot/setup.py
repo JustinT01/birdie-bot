@@ -4,3 +4,4 @@ url = 'https://eleisure.sportsoft.co.uk/cgrs'
 
 driver = webdriver.Chrome()
 driver.maximize_window()
+print('INFO: Opening chrome...')

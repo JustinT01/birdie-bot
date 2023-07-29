@@ -1,0 +1,1 @@
+total_slots_to_book = 2

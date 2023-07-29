@@ -24,5 +24,5 @@ def login():
     
     authenticated = WebDriverWait(driver, 10).until(
                  EC.presence_of_element_located((By.ID, 'RequestAuthenticated')))
-    print('🚀 Successfully signed in !!!')
+    print('INFO: 🚀 Successfully logged in to Castle Green booking portal')
     return authenticated

@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['book-slot/birdie-bot.py'],
+    ['book-slot\\birdie-bot.py'],
     pathex=[],
     binaries=[],
     datas=[],

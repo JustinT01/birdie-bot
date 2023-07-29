@@ -2,6 +2,7 @@ import datetime
 import logging
 
 def get_date(weekday_index):
+    print('INFO: Fetching date to book the slot...')
     current_date = datetime.datetime.now()
     
     # TODO: Enable this logic later
@@ -16,6 +17,7 @@ def get_date(weekday_index):
     date = current_date + datetime.timedelta(days_delta)
     date = date.strftime("%d/%m/%Y")
     
+    print(f'INFO: Selected Date: {date}')
     return date
 
 def get_logger():
